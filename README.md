@@ -79,6 +79,7 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 É importante que o utilizador, entenda o mecanismo desta solução e apure se há a necessidade de ajustes, haja visto a infinidade de cenários que ronda esse tema.
 
 
+                 <br />
 ### Prerequisites
 
 
@@ -91,17 +92,18 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 
 ![Product Name Screen Shot][SOURCE_TARGET_DIFF]
 
-
-			
+                 <br />
+                 <br />			
    - Possibilidade de cenário 2) SOURCE DATABASE e TARGET DATABASE habitam na mesma infraestrutura computacional.
 		> * Para esta conjuntura, certificar que há espaço suficiente no FILESYSTEM ou ASM para a duplicação do banco de dados em questão. 
            <br />
 		> * (Opcional) Sugere-se que o DISKGROUP (DG) ou Filesystem sejam segregados para database produtivo e database não produtivo.
 		
-[![Product Name Screen Shot][SOURCE_TARGET_EQ]] 
+![Product Name Screen Shot][SOURCE_TARGET_EQ] 
 		
 		
-		
+
+                 <br />	
 		
 		
 ####################
