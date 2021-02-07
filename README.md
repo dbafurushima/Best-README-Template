@@ -53,6 +53,7 @@ O ATK (Automation Toolkit) foi desenvolvido com propósito de facilitar as taref
 Detalhes relevantes sobre a solução :
 * Script desenvolvido em BASH SH
 * Mecanismo utilizado para operação de refresh : DUPLICATE ACTIVE DATABASE
+* Para execução desta automação, recomenda-se o uso de uma ferramenta CI/CD, a ferramenta utilizada neste documento trata-se do Jenkins.
 
 Termos e terminologias utilizadas :
 * SOURCE DATABASE : Banco de dados de ORIGEM
@@ -68,12 +69,11 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-### Built With
+### Ferramentas Base Para Uso
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [Oracle Database](https://www.oracle.com/br/database/)
+* [Jenkins](https://www.jenkins.io/)
+* [Shell Script](https://www.gnu.org/software/bash/)
 
 
 
