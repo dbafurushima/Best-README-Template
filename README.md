@@ -105,12 +105,9 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 		
 		
 
-                 <br />	
-		
-		
-####################
-*****
-		
+
+
+
 		
 		
 		
