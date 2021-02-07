@@ -1,0 +1,23 @@
+. ~oracle/.bash_profile > /dev/null
+. $ATK_HOME/conf/create_atk_dirs.sh > /dev/null
+. $ATK_ORACLE_MODULE_REFRESH_SCRIPT/setoraenv.sh > /dev/null
+
+export ORACLE_SID=$1
+
+sqlplus / as sysdba << EOF
+shutdown abort ;
+startup mount restrict pfile=$ATK_ORACLE_MODULE_REFRESH_SCRIPT/pfile
+alter database flashback off ; 
+ ALTER DATABASE DISABLE BLOCK CHANGE TRACKING;
+# -- drop database;
+select ' drop database ' from dual ;
+EOF
+
+
+sqlplus / as sysdba << EOF
+shutdown abort ;
+startup nomount pfile=$ATK_ORACLE_MODULE_REFRESH_SCRIPT/pfile_duplicate
+EOF
+
+
+

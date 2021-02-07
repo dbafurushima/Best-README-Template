@@ -1,0 +1,6 @@
+
+PRIMARY is set to value ISSP_SP ..... OK
+STANDBY is set to value ISSPSTB ..... OK
+TNSPING.........OK
+TEST DB CONNECT .........OK
+TEST DB CONNECT .........OK
