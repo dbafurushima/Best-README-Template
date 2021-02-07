@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]] 
+![Product Name Screen Shot][product-screenshot]
 
 O ATK (Automation Toolkit) foi desenvolvido com propósito de facilitar as tarefas que envolve REFRESH DATABASE, comumente utilizado para atualização de bases de dados não produtivas. Das quais são utilizadas para esteiras de desenvolvimentos das aplicações que utilizam o Oracle Database como seu SGBD.
 
