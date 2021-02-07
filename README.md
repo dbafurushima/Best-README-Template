@@ -109,33 +109,12 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 
 
 		
-		
-		
-1. Ordered list item 3
 
-   ```plaintext
-   a code block that nests inside list item 3
-   ```
-
-1. Ordered list item 4
-
-		  
-Em cenários onde SOURCE DATABASE e TARGET DATABASE, estejam em máquinas/infraestruturas diferentes, certificar que há liberação entre as portas do serviço SSH e SQLNET 22 (SSH) e 1521 (SQLNET).
-
-
-
-
-* Parametrização dos apontamentos entre SOURCE e TARGET (utilizar o instalador atk_install.sh)
-
-
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+	
 
 ### Installation
+
+* Parametrização dos apontamentos entre SOURCE e TARGET (utilizar o instalador atk_install.sh)
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
