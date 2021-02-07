@@ -89,7 +89,9 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 	 dwqodjqwiodjqwodjqwdjioqwdjioqwdjioqw
 
 
-
+ Markup : - [ ] An uncompleted task
+          - [x] A completed task
+		  
 Em cenários onde SOURCE DATABASE e TARGET DATABASE, estejam em máquinas/infraestruturas diferentes, certificar que há liberação entre as portas do serviço SSH e SQLNET 22 (SSH) e 1521 (SQLNET).
 
 
