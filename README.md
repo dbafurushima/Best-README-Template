@@ -97,11 +97,13 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 Markup :  ## Heading 2 ##
 
 
-1. Ordered list item 1
+1. Pré-requisitos para utilização:
 
-   A line nested using 3 spaces to align with the `O` above.
+   Certificar que ha comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
 
-1. Ordered list item 2
+   - Possibilidade de cenario 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
+   
+   - Possibilidade de cenario 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
 
    > A quote block that will nest
    > inside list item 2.
