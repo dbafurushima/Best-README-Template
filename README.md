@@ -48,20 +48,20 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-O ATK (Automation Toolkit) foi desenvolvido com propósito de facilitar as tarefas que envolve DATABASE REFRESH, comumente utilizado para atualização de bases de dados não produtivas. Das quais são utilizadas para esteiras de desenvolvimentos das aplicações que utilizam o Oracle Database como seu SGBD.
+O ATK (Automation Toolkit) foi desenvolvido com propósito de facilitar as tarefas que envolve REFRESH DATABASE, comumente utilizado para atualização de bases de dados não produtivas. Das quais são utilizadas para esteiras de desenvolvimentos das aplicações que utilizam o Oracle Database como seu SGBD.
 
 Detalhes relevantes sobre a solução :
 * Script desenvolvido em BASH SH
 * Mecanismo utilizado para operação de refresh : DUPLICATE ACTIVE DATABASE
 * Para execução desta automação, recomenda-se o uso de uma ferramenta CI/CD, a ferramenta utilizada neste documento trata-se do Jenkins.
 
-Termos e terminologias utilizadas :
-* SOURCE DATABASE : Banco de dados de ORIGEM
-* TARGET DATABASE : Banco de dados de DESTINO
+Termos e terminologias utilizadas:
+* SOURCE DATABASE: Banco de dados de ORIGEM
+* TARGET DATABASE: Banco de dados de DESTINO
 
-Pre-requisitos para utilização : 
+Pré-requisitos para utilização: 
 * Parametrização dos apontamentos entre SOURCE e TARGET (utilizar o instalador atk_install.sh)
-* Em cenarios onde SOURCE DATABASE e TARGET DATABASE, estejam em maquinas/infraestruturas diferentes, certificar que ha liberação entre as portas 22 (SSH) e 1521 (SQLNET).
+* Em cenários onde SOURCE DATABASE e TARGET DATABASE, estejam em máquinas/infraestruturas diferentes, certificar que há liberação entre as portas 22 (SSH) e 1521 (SQLNET).
 
 
 ### Ferramentas Base Para Uso
@@ -75,8 +75,13 @@ Pre-requisitos para utilização :
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode várias sua complexidade, do qual envolve alguns fatores, tais como : 
+* Tamanho do Banco de Dados
+* Calibre/capacidade do ambiente computacional que hospeda o sistema de banco de dados.
+* RTO (Recovery Time Objective) de execução do processo fim a fim.
+
+É importante que o utilizador, entenda o mecanismo desta solução e apure se há a necessidade de ajustes, haja visto a infinidade de cenários que ronda esse tema.
+
 
 ### Prerequisites
 
