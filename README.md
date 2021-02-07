@@ -97,7 +97,7 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 Markup :  ## Heading 2 ##
 
 
-1. Pré-requisitos para utilização:
++  Pré-requisitos para utilização:
 
    Certificar que ha comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
 
