@@ -81,33 +81,20 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 
 ### Prerequisites
 
-+  Pré-requisitos para utilização:
-   - Certificar que ha comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
-     - Possibilidade de cenario 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
-	 diqwdjiowdjqiowdjqwodjqwdjioqw
-     - Possibilidade de cenario 2) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
-	 dwqodjqwiodjqwodjqwdjioqwdjioqwdjioqw
-
-
- Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
-		  
-Markup :  ## Heading 2 ##
-
 
 +  Pré-requisitos para utilização:
 
-   Certificar que ha comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
+   Certificar que há comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
 
-   - Possibilidade de cenario 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
-   
-   - Possibilidade de cenario 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
+   - Possibilidade de cenário 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
+		> Para esta conjuntura, é obrigatório que os serviços de SSH e SQLNET (comumente alojado nas portas 22 e 1521, respectivamente) de SOURCE DATABASE e TARGET DATABASE, tenham liberação no firewall (caso houver bloqueio).
+			
+   - Possibilidade de cenário 2) SOURCE DATABASE e TARGET DATABASE habitam na mesma infraestrutura computacional.
+		> Para esta conjuntura, certificar que há espaço suficiente no FILESYSTEM ou ASM para a duplicação do banco de dados em questão.
+		> (Opcional) Sugere-se que o DISKGROUP (DG) ou Filesystem sejam segregados para database produtivo e database não produtivo.
+		
 
-   > A quote block that will nest
-   > inside list item 2.
-
+		
 1. Ordered list item 3
 
    ```plaintext
