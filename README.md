@@ -64,11 +64,6 @@ Pre-requisitos para utilização :
 * Em cenarios onde SOURCE DATABASE e TARGET DATABASE, estejam em maquinas/infraestruturas diferentes, certificar que ha liberação entre as portas 22 (SSH) e 1521 (SQLNET).
 
 
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
 ### Ferramentas Base Para Uso
 
 * [Oracle Database](https://www.oracle.com/br/database/)
