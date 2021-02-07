@@ -87,7 +87,7 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
    Certificar que há comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
 
    - Possibilidade de cenário 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
-		> Para esta conjuntura, é obrigatório que os serviços de SSH e SQLNET (comumente alojado nas portas 22 e 1521, respectivamente) de SOURCE DATABASE e TARGET DATABASE, tenham liberação no firewall (caso houver bloqueio).
+		> * Para esta conjuntura, é obrigatório que os serviços de SSH e SQLNET (comumente alojado nas portas 22 e 1521, respectivamente) de SOURCE DATABASE e TARGET DATABASE, tenham liberação no firewall (caso houver bloqueio).
 			
    - Possibilidade de cenário 2) SOURCE DATABASE e TARGET DATABASE habitam na mesma infraestrutura computacional.
 		> * Para esta conjuntura, certificar que há espaço suficiente no FILESYSTEM ou ASM para a duplicação do banco de dados em questão. 
