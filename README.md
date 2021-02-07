@@ -79,7 +79,7 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 É importante que o utilizador, entenda o mecanismo desta solução e apure se há a necessidade de ajustes, haja visto a infinidade de cenários que ronda esse tema.
 
 
-                 <br />
+
 ### Prerequisites
 
 
