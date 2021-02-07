@@ -91,7 +91,7 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 			
    - Possibilidade de cenário 2) SOURCE DATABASE e TARGET DATABASE habitam na mesma infraestrutura computacional.
 		> Para esta conjuntura, certificar que há espaço suficiente no FILESYSTEM ou ASM para a duplicação do banco de dados em questão. 
-    <br />
+           <br />
 		> (Opcional) Sugere-se que o DISKGROUP (DG) ou Filesystem sejam segregados para database produtivo e database não produtivo.
 		
 
