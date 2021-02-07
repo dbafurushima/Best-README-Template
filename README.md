@@ -85,6 +85,11 @@ Pré-requisitos para utilização:
 * Certificar que ha comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
 ** assssssssss
 
+1. First list item
+   - First nested list item
+     - Second nested list item
+	 
+
 Em cenários onde SOURCE DATABASE e TARGET DATABASE, estejam em máquinas/infraestruturas diferentes, certificar que há liberação entre as portas do serviço SSH e SQLNET 22 (SSH) e 1521 (SQLNET).
 
 
