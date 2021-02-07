@@ -216,3 +216,5 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
+[SOURCE_TARGET_DIFF]: images/SOURCE_TARGET_DIFERENTE_INFRA.png
+[SOURCE_TARGET_EQ]: images/SOURCE_TARGET_MESMA_INFRA.png
