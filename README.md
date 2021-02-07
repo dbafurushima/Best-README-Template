@@ -46,7 +46,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]] 
 
 O ATK (Automation Toolkit) foi desenvolvido com propósito de facilitar as tarefas que envolve REFRESH DATABASE, comumente utilizado para atualização de bases de dados não produtivas. Das quais são utilizadas para esteiras de desenvolvimentos das aplicações que utilizam o Oracle Database como seu SGBD.
 
@@ -89,7 +89,7 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
    - Possibilidade de cenário 1) SOURCE DATABASE e TARGET DATABASE habitam em diferentes infraestruturas de computação.
 		> * Para esta conjuntura, é obrigatório que os serviços de SSH e SQLNET (comumente alojado nas portas 22 e 1521, respectivamente) de SOURCE DATABASE e TARGET DATABASE, tenham liberação no firewall (caso houver bloqueio).
 
-[![Product Name Screen Shot][SOURCE_TARGET_DIFF]](https://example.com)
+[![Product Name Screen Shot][SOURCE_TARGET_DIFF]] 
 
 
 			
@@ -98,7 +98,17 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
            <br />
 		> * (Opcional) Sugere-se que o DISKGROUP (DG) ou Filesystem sejam segregados para database produtivo e database não produtivo.
 		
-
+[![Product Name Screen Shot][SOURCE_TARGET_EQ]] 
+		
+		
+		
+		
+		
+####################
+*****
+		
+		
+		
 		
 1. Ordered list item 3
 
