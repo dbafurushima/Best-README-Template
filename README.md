@@ -59,10 +59,6 @@ Termos e terminologias utilizadas:
 * SOURCE DATABASE: Banco de dados de ORIGEM
 * TARGET DATABASE: Banco de dados de DESTINO
 
-Pré-requisitos para utilização: 
-* Parametrização dos apontamentos entre SOURCE e TARGET (utilizar o instalador atk_install.sh)
-* Em cenários onde SOURCE DATABASE e TARGET DATABASE, estejam em máquinas/infraestruturas diferentes, certificar que há liberação entre as portas 22 (SSH) e 1521 (SQLNET).
-
 
 ### Ferramentas Base Para Uso
 
@@ -84,6 +80,19 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 
 
 ### Prerequisites
+
+Pré-requisitos para utilização: 
+* Certificar que ha comunicação entre SOURCE DATABASE e TARGET DATABASE, para os protocolos SSH e SQLNET, comumente alojado nas portas 22 e 1521, respectivamente.
+** assssssssss
+
+Em cenários onde SOURCE DATABASE e TARGET DATABASE, estejam em máquinas/infraestruturas diferentes, certificar que há liberação entre as portas do serviço SSH e SQLNET 22 (SSH) e 1521 (SQLNET).
+
+
+
+
+* Parametrização dos apontamentos entre SOURCE e TARGET (utilizar o instalador atk_install.sh)
+
+
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
