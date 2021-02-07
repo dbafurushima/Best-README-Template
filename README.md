@@ -96,6 +96,24 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 		  
 Markup :  ## Heading 2 ##
 
+
+1. Ordered list item 1
+
+   A line nested using 3 spaces to align with the `O` above.
+
+1. Ordered list item 2
+
+   > A quote block that will nest
+   > inside list item 2.
+
+1. Ordered list item 3
+
+   ```plaintext
+   a code block that nests inside list item 3
+   ```
+
+1. Ordered list item 4
+
 		  
 Em cenários onde SOURCE DATABASE e TARGET DATABASE, estejam em máquinas/infraestruturas diferentes, certificar que há liberação entre as portas do serviço SSH e SQLNET 22 (SSH) e 1521 (SQLNET).
 
