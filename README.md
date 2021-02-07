@@ -92,8 +92,8 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 
 ![Product Name Screen Shot][SOURCE_TARGET_DIFF]
 
-                 <br />
-                 <br />			
+   <br />			
+   <br />			
    - Possibilidade de cenário 2) SOURCE DATABASE e TARGET DATABASE habitam na mesma infraestrutura computacional.
 		> * Para esta conjuntura, certificar que há espaço suficiente no FILESYSTEM ou ASM para a duplicação do banco de dados em questão. 
            <br />
