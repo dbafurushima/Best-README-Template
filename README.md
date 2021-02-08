@@ -153,15 +153,12 @@ Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo S
 * Parte 3) Informações sobre usuario e senha SYSDBA.
     ![Product Name Screen Shot][atk_install_sh_parte_3] 
 
-* Parte 4) Parametrização
+* Parte 4) Parametrização - ENV + TNS
     ![Product Name Screen Shot][atk_install_sh_parte_4] 
 
-
+* Parte 5) Parametrização - Duplicate file
+    ![Product Name Screen Shot][atk_install_sh_parte_5] 
    
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 
 
@@ -171,6 +168,12 @@ Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo S
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
+
+
+
+
+
+
 
 
 
@@ -223,7 +226,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 * [Sticky Kit](http://leafo.net/sticky-kit)
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
-
+ 
 
 
 
@@ -251,3 +254,5 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [atk_install_sh_parte_2]: images/atk_install_sh_parte_2_target.png
 [atk_install_sh_parte_3]: images/atk_install_sh_parte_3_password.png
 [atk_install_sh_parte_4]: images/atk_install_sh_parte_4_parametrizacao.png
+[atk_install_sh_parte_5]: images/atk_install_sh_parte_5_parametrizacao2.png
+
