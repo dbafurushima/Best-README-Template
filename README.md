@@ -250,4 +250,4 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [atk_install_sh_parte_1]: images/atk_install_sh_parte_1_source.png
 [atk_install_sh_parte_2]: images/atk_install_sh_parte_2_target.png
 [atk_install_sh_parte_3]: images/atk_install_sh_parte_3_password.png
-[atk_install_sh_parte_4]: images/atk_install_sh_parte_4_password.png
+[atk_install_sh_parte_4]: images/atk_install_sh_parte_4_parametrizacao.png
