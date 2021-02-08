@@ -130,6 +130,8 @@ Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo S
    mkdir -p /backup/tivit/atk
    cd /backup/tivit/atk
    ```
+* Chamaremos esse local de ATK_HOME
+
    
 2. Clone o repositorio
    ```sh
@@ -140,6 +142,7 @@ Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo S
    ```sh
    /backup/tivit/atk/atk_install.sh
    ```
+		> * Veja um exemplo de execução do script atk_install.sh
    
    
 4. Enter your API in `config.js`
