@@ -1,6 +1,4 @@
 run {
-########## Alocar a quantidade de canais no SOURCE DATABASE
-########## Quantificar baseado no seu cenario
 allocate channel SOURCE_chn_01 type disk;
 allocate channel SOURCE_chn_02 type disk;
 allocate channel SOURCE_chn_03 type disk;
@@ -11,8 +9,6 @@ allocate channel SOURCE_chn_07 type disk;
 allocate channel SOURCE_chn_08 type disk;
 allocate channel SOURCE_chn_09 type disk;
 allocate channel SOURCE_chn_10 type disk;
-########## Alocar a quantidade de canais no TARGET DATABASE
-########## Quantificar baseado no seu cenario
 allocate channel TARGET_chn_01 type disk;
 allocate channel TARGET_chn_02 type disk;
 allocate channel TARGET_chn_03 type disk;
@@ -26,7 +22,7 @@ allocate channel TARGET_chn_10 type disk;
 SET NEWNAME FOR DATABASE TO NEW ;
 duplicate target database to issdes from active  database
 SPFILE
-  PARAMETER_VALUE_CONVERT '<DB_UNIQUE_NAME - SOURCE>','<DB_UNIQUE_NAME - TARGET>'
+  PARAMETER_VALUE_CONVERT 'ISSP','issdes','ISSPSTB','issdes'
   SET CONTROL_FILES='+DATAC1'
   SET DB_CREATE_FILE_DEST='+DATAC1'
   SET DB_RECOVERY_FILE_DEST_SIZE='500G'
