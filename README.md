@@ -124,15 +124,24 @@ Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo S
 
 * Parametrização dos apontamentos entre SOURCE e TARGET (utilizar o instalador atk_install.sh)
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Utilizando-se do usuario UNIX oracle, defina o local (path filesystem) a qual os script "ATK - Oracle Database" irão residir.
+
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   mkdir -p /backup/tivit/atk
+   cd /backup/tivit/atk
    ```
-3. Install NPM packages
+   
+2. Clone o repositorio
    ```sh
-   npm install
+   git clone https://github.com/XXXXXXXX/XXXXXX.git
    ```
+   
+3. Execute o script atk_install.sh 
+   ```sh
+   /backup/tivit/atk/atk_install.sh
+   ```
+   
+   
 4. Enter your API in `config.js`
    ```JS
    const API_KEY = 'ENTER YOUR API';
