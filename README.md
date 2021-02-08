@@ -159,7 +159,67 @@ Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo S
 * Parte 5) Parametrização - Duplicate file
     ![Product Name Screen Shot][atk_install_sh_parte_5] 
    
+<br />
+<br />
 
+> * Exemplo de um duplicate file (duplicate.rman)
+
+   ```sh
+run {
+allocate channel SOURCE_chn_01 type disk;
+allocate channel SOURCE_chn_02 type disk;
+allocate channel SOURCE_chn_03 type disk;
+allocate channel SOURCE_chn_04 type disk;
+allocate channel SOURCE_chn_05 type disk;
+allocate channel SOURCE_chn_06 type disk;
+allocate channel SOURCE_chn_07 type disk;
+allocate channel SOURCE_chn_08 type disk;
+allocate channel SOURCE_chn_09 type disk;
+allocate channel SOURCE_chn_10 type disk;
+allocate channel TARGET_chn_01 type disk;
+allocate channel TARGET_chn_02 type disk;
+allocate channel TARGET_chn_03 type disk;
+allocate channel TARGET_chn_04 type disk;
+allocate channel TARGET_chn_05 type disk;
+allocate channel TARGET_chn_06 type disk;
+allocate channel TARGET_chn_07 type disk;
+allocate channel TARGET_chn_08 type disk;
+allocate channel TARGET_chn_09 type disk;
+allocate channel TARGET_chn_10 type disk;
+SET NEWNAME FOR DATABASE TO NEW ;
+duplicate target database to issdes from active  database
+SPFILE
+  PARAMETER_VALUE_CONVERT 'ISSP','issdes','ISSPSTB','issdes'
+  SET CONTROL_FILES='+DATAC1'
+  SET DB_CREATE_FILE_DEST='+DATAC1'
+  SET DB_RECOVERY_FILE_DEST_SIZE='500G'
+  SET AUDIT_FILE_DEST='/u01/app/oracle/admin/issdes/adump'
+  SET SGA_TARGET='25G'
+  SET SGA_MAX_SIZE='25G'
+  SET SHARED_POOL_SIZE='7G'
+  SET DB_CACHE_SIZE='10G'
+  SET CLUSTER_DATABASE='FALSE'
+  SET DG_BROKER_CONFIG_FILE1=' '
+  SET DG_BROKER_CONFIG_FILE2=' '
+  SET UNDO_TABLESPACE='UNDOTBS1'
+  SET DG_BROKER_START='FALSE'
+  SET remote_listener=''
+  SET service_names='ISSDES' 
+  SET db_recovery_file_dest=''
+  SET log_archive_dest_1='location=+DBFS_DG'
+logfile
+      GROUP 1  ('+RECOC1') SIZE 5G
+     ,GROUP 2  ('+RECOC1') SIZE 5G
+     ,GROUP 3  ('+RECOC1') SIZE 5G
+     ,GROUP 4  ('+RECOC1') SIZE 5G
+     ,GROUP 5  ('+RECOC1') SIZE 5G
+     ,GROUP 6  ('+RECOC1') SIZE 5G
+     ,GROUP 7  ('+RECOC1') SIZE 5G
+     ,GROUP 8  ('+RECOC1') SIZE 5G
+     ,GROUP 9  ('+RECOC1') SIZE 5G
+     ,GROUP 10 ('+RECOC1') SIZE 5G;
+}
+   ```
 
 
 <!-- USAGE EXAMPLES -->
