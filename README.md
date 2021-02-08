@@ -142,8 +142,21 @@ Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo S
    ```sh
    /backup/tivit/atk/atk_install.sh
    ```
-> * Veja um exemplo de execução do script atk_install.sh
-   
+> Veja um exemplo de execução do script atk_install.sh
+
+* Parte 1) Informações sobre o ambiente SOURCE DATABASE.
+    ![Product Name Screen Shot][atk_install_sh_parte_1] 
+
+* Parte 2) Informações sobre o ambiente TARGET DATABASE.
+    ![Product Name Screen Shot][atk_install_sh_parte_2] 
+
+* Parte 3) Informações sobre usuario e senha SYSDBA.
+    ![Product Name Screen Shot][atk_install_sh_parte_3] 
+
+* Parte 4) Parametrização
+    ![Product Name Screen Shot][atk_install_sh_parte_4] 
+
+
    
 4. Enter your API in `config.js`
    ```JS
@@ -232,3 +245,9 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [product-screenshot]: images/macro_refresh_database.png
 [SOURCE_TARGET_DIFF]: images/SOURCE_TARGET_DIFERENTE_INFRA.png
 [SOURCE_TARGET_EQ]: images/SOURCE_TARGET_MESMA_INFRA.png
+
+
+[atk_install_sh_parte_1]: images/atk_install_sh_parte_1_source.png
+[atk_install_sh_parte_2]: images/atk_install_sh_parte_2_target.png
+[atk_install_sh_parte_3]: images/atk_install_sh_parte_3_password.png
+[atk_install_sh_parte_4]: images/atk_install_sh_parte_4_password.png
