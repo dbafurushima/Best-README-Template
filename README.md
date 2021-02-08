@@ -114,6 +114,11 @@ O assunto REFRESH DATABASE a depender do cenário a qual está contido, pode vá
 
 ### Installation
 
+A instalação do ATK - Oracle Database - REFRESH DATABASE passa por um processo semiautomatizado, é necessário o analista parametrizar os valores referente ao ambiente da qual está trabalhando. 
+Portanto informações tais como ASM DISKGROUP, FRA (Fast Recovery Area), Redo Size e outros pontos relevantes do arquivo de configuração do DUPLICATE ACTIVE DATABASE, é obrigatório fazer sua primeira alimentação, temática da qual será dissecado neste tópico de instalação.
+É importante ressaltar que qualquer mudança de estrutura na infraestrutura (mesmo que essa pratica não seja comum no dia a dia), é necessário o ajuste deste arquivo, exemplo, mudança de host do ambiente Oracle RAC.
+
+
 * Parametrização dos apontamentos entre SOURCE e TARGET (utilizar o instalador atk_install.sh)
 
 1. Get a free API Key at [https://example.com](https://example.com)
